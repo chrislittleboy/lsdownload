@@ -1,3 +1,4 @@
+#' @export
 download_wrapper <- function(ls,aoi,cc,name,metadata_path){
   aoi <- sf_as_ee(bbox_expand(aoi))
   lscode <- getlscode(ls)
